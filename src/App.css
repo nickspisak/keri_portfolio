@@ -45,3 +45,20 @@
 .insta {
   height: 500px;
 }
+.title {
+  color: tan;
+  text-align: center;
+}
+.about {
+  background-color: rgb(177, 173, 173);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.subtitle {
+  color: tan;
+  text-align: center;
+}
+.projects {
+  background-color: black;
+}
