@@ -5,8 +5,16 @@ const About = () => {
     <div className="about">
       <div className="container">
         <div className="row">
+          <div className="col-4"></div>
+          <div className="col-4">
+            <h1 className="aboutMe">About Me</h1>
+          </div>
+          <div className="col-4"></div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
           <div className="col-8 mt-2">
-            <h1>About Me</h1>
             <p>
               My name is Keri Rogosz. Im from Pittsburgh and have been in the
               sales and marketing field for awhile. After becoming an
@@ -23,7 +31,7 @@ const About = () => {
               and jumpstart my career.
             </p>
           </div>
-          <div className="col mt-3 mb-3">
+          <div className="col-2 mt-3 mb-3">
             <img height={400} src="/images/keri_picture.png" alt="burgh" />
           </div>
         </div>

@@ -4,6 +4,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <h1 className="title">My Projects</h1>
+      <p className="subtitle">All Photos were taken or Created by Myself</p>
       <p className="subtitle">Mockup Social Media Report for Ulta Beauty</p>
       <img className="picture" src="/images/first.jpeg" alt="ultaproject_1" />
       <img className="picture" src="/images/second.jpeg" alt="ultaproject_2" />

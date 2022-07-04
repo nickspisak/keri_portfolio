@@ -62,3 +62,9 @@
 .projects {
   background-color: black;
 }
+ul {
+  list-style-type: none;
+}
+.aboutMe {
+  align-items: center;
+}
