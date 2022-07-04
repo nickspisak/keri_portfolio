@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
           <div className="col mt-3 mb-3">
-            <img height={500} src="/images/keri_picture.png" alt="burgh" />
+            <img height={400} src="/images/keri_picture.png" alt="burgh" />
           </div>
         </div>
         <div className="row">
