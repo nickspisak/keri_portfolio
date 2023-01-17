@@ -68,3 +68,6 @@ ul {
 .aboutMe {
   align-items: center;
 }
+.longPicture {
+  max-width:100%
+}
