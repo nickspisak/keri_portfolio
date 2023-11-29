@@ -1,8 +1,10 @@
 import React from "react";
+import './App.css';
 
 const About = () => {
   return (
     <div className="about">
+      <h4 className='experience' style={{'color': '#b1adad'}}>20 Years Experience. Expert. Launched profitable campaigns. Project leader. Master&#8217;s Degree in Marketing.</h4>
       <div className="container">
         <div className="row">
           <div className="col-4"></div>
@@ -16,20 +18,10 @@ const About = () => {
         <div className="row">
           <div className="col-8 mt-2">
             <p>
-              My name is Keri Rogosz. I&#8217;m from Pittsburgh and have been in the
-              sales and marketing field for awhile. After becoming an
-              esthetician and growing my own client base, I&#8217;ve realized that
-              advertising is my favorite part of my position. esthetics school
-              taught us a lot about building client relationships and promoting
-              your services.
+             Strategic Marketing Expert with 5 Years of Expertise: Elevating Brands through Proven Excellence in Social Media, Communications, Project Management, Client Relations, and Event Planning.
+
             </p>
-            <p>
-              Since graduating I have taken it initiative to educate myself on
-              all things marketing and have taken a few courses. I have been
-              doing my own personal projects as well as work with a women&#8217;s
-              health nonprofit. I am now ready to put these skills into practice
-              and jumpstart my career.
-            </p>
+   
           </div>
           <div className="col-2 mt-3 mb-3">
             <img height={400} src="/images/keri_picture.png" alt="burgh" />
@@ -37,7 +29,7 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col mb-2">
-            <img height={700} src="/images/keri_letter.jpeg" />
+          <img height={400} className="post" src="/images/post.jpeg" alt="post" />
           </div>
           <div className="col">
             <h2>Career Interests</h2>
